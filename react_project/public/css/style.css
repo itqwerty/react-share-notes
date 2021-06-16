@@ -1,0 +1,67 @@
+.hide {
+	display: none;
+}
+
+.top-line {
+	background: grey;
+}
+#root {
+	height: 100vh;
+	
+}
+.main {
+	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../images/happy_clients.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home, .note, .create, .about {
+	flex: 2 1 auto;
+	padding-top: 50px;
+}
+
+.acrticle {
+	margin-top: 100px;
+}
+
+.footer {
+	min-height: 56px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-indent {
+	text-indent: 30px;
+}
+
+.bg-color {
+	background: #2C2C2C;
+}
+
+.form-control {
+	margin: 20px 0;
+}
+
+.about h1 {
+	margin-bottom: 50px;
+}
+
+.create #note {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.create .url-view {
+	margin: 10px 0;
+	padding: 20px;
+	background: #BEE8FD;
+	border-radius: 5px;
+}
+
+
